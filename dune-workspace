@@ -1,11 +1,1 @@
 (lang dune 3.17)
-
-(pin
- (name melange-radix-ui)
- (url git+https://github.com/anyjump/melange-radix-ui)
-
- (package (name melange-radix-ui) (version "0.1.0")))
-
-(lock_dir 
-  (pins
-    melange-radix-ui))

@@ -19,3 +19,8 @@
   melange-webapi
   melange-radix-ui
   ))
+
+;; dependency manangement
+(pin
+ (url git+https://github.com/anyjump/melange-radix-ui)
+ (package (name melange-radix-ui) (version "0.1.0")))
