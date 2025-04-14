@@ -1,0 +1,7 @@
+(library
+ (name cmdk)
+ (public_name melange-cmdk)
+ (modes melange)
+ (libraries reason-react melange.dom melange.belt melange-radix-ui melange-webapi)
+ (preprocess
+  (pps melange.ppx reason-react-ppx)))
